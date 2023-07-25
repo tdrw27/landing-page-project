@@ -26,12 +26,15 @@ h2 {
   letter-spacing: 2px;
 }
 
-/* HIDE SCROLLBARS */
-.hide-scrollbar::-webkit-scrollbar {
-  display: none;
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 7px;
+  background: #33033371;
 }
 
-
+::-webkit-scrollbar-thumb {
+  background: #00000080;
+}
 
 /* GENERAL */
 html {

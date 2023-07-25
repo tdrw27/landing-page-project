@@ -133,12 +133,3 @@ body.addEventListener('click', e => {
     window.scroll(0, top)
   }
 })
-
-// Hide scroll bar while not scrolling
-window.addEventListener('scroll', () => {
-  const bodyClass = body.classList;
-  bodyClass.remove('hide-scrollbar')
-  if (bodyClass.length === 0) {
-    setTimeout(() => bodyClass.add('hide-scrollbar'), 2000);
-  }
-})
